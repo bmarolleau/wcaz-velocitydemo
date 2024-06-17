@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "type": "java",
+            "name": "Debug (Attach to z/OS)",
+            "request": "attach",
+            "hostName": "10.3.58.61", // replace with your z/OS system's IP
+            "port": 8000
+        },
+        ,
+        {
+            "type": "java",
+            "name": "Debug (Local)",
+            "request": "attach",
+            "hostName": "127.0.0.1",
+            "port": 8000
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+com/ibm/genapp/policies/Dfhcommarea1.class
+com/ibm/genapp/policies/caCustomerRequest.class
+com/ibm/genapp/policies/CaPolicyCommon.class
+com/ibm/genapp/policies/Customer.class
+com/ibm/genapp/policies/CaClaim.class
+com/ibm/genapp/policies/CaPolicyRequest.class
+com/ibm/genapp/policies/CaMotor.class
+com/ibm/genapp/policies/CaCommercial.class
+com/ibm/genapp/policies/CaEndowment.class
+com/ibm/genapp/policies/EmVariable.class
+com/ibm/genapp/policies/ErrorMsg.class
+com/ibm/genapp/policies/CaCustsecrRequest.class
+com/ibm/genapp/policies/CaHouse.class

@@ -1,0 +1,728 @@
+[
+  {
+    "javaClassRelativePath": "src/main/java2/com/ibm/incust/implementation/CaEndowment.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "src/main/java2/com/ibm/incust/implementation/CaCommercial.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "src/main/java2/com/ibm/incust/implementation/Inscust.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": [
+      {
+        "id": "JAVA:7F306075E34BF0130AC052123A52F394631DE5C2E0F2915E8FC49118882B7ABB",
+        "type": null,
+        "type_class_id": null,
+        "name_editable": "insertCustomer",
+        "suggested_names": [
+          "insertCustomer"
+        ],
+        "member_type": "method",
+        "method_info": {
+          "input_parameters": [],
+          "local_variables": [
+            {
+              "id": "JAVA:17F80A262A185B6EA309101E4120C1D9C9586B2EA2568E24FE10770E82FB3527",
+              "type": "ErrorMsg",
+              "type_class_id": "JAVA:6E9DF9C4DBEA61AD2549ECEEFE904479AB518DDED47D4B0123392311239CA1E0",
+              "name_editable": "errorMsg",
+              "suggested_names": [
+                "errorMsg"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:250",
+                "name": "ERROR-MSG",
+                "type": "variable",
+                "pic_info": null,
+                "location_info": {
+                  "id": "ADDI:1",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 26
+                }
+              }
+            },
+            {
+              "id": "JAVA:4AFC28D31B2C6B4A2E5E035FBDAB3BA201C0FAB94BB9D8664F9570EC4BD48353",
+              "type": "CaCustomerRequest",
+              "type_class_id": "JAVA:656A978759E5C272473F9E86C2EF0BBC24501AB2AFF9ADAE3213672FCDD91A13",
+              "name_editable": "caCustomerRequest",
+              "suggested_names": [
+                "caCustomerRequest"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:170",
+                "name": "CA-CUSTOMER-REQUEST",
+                "type": "variable",
+                "pic_info": "PIC X(10)",
+                "location_info": {
+                  "id": "ADDI:2",
+                  "program_file_name": "LGCMAREA.cpy",
+                  "line_number": 28
+                }
+              }
+            },
+            {
+              "id": "JAVA:E9922C515E6C24E089121F10E3173665E724B6FC71667D49C7D57493E656155F",
+              "type": "long",
+              "type_class_id": null,
+              "name_editable": "db2CustomernumInt",
+              "suggested_names": [
+                "db2CustomernumInt"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:159",
+                "name": "DB2-CUSTOMERNUM-INT",
+                "type": "variable",
+                "pic_info": "PIC S9(9)",
+                "location_info": {
+                  "id": "ADDI:1",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 19
+                }
+              }
+            },
+            {
+              "id": "JAVA:A04AF247092CC2A9C0EB0AD82D47145D26FFFC4D298AC29AD2E74824A2A8AA3B",
+              "type": "String",
+              "type_class_id": null,
+              "name_editable": "lgacNcs",
+              "suggested_names": [
+                "lgacNcs"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:160",
+                "name": "LGAC-NCS",
+                "type": "variable",
+                "pic_info": "PIC X(2)",
+                "location_info": {
+                  "id": "ADDI:1",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 20
+                }
+              }
+            }
+          ]
+        },
+        "variable_info": null,
+        "cobol_info": {
+          "id": "ADDI:3",
+          "name": "INSERT-CUSTOMER",
+          "type": "paragraph",
+          "pic_info": null,
+          "location_info": {
+            "id": "ADDI:1",
+            "program_file_name": "INSCUST.cbl",
+            "line_number": 48
+          }
+        }
+      }
+    ]
+  },
+  {
+    "javaClassRelativePath": "src/main/java2/com/ibm/incust/implementation/EmVariable.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "src/main/java2/com/ibm/incust/implementation/CaClaim.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "src/main/java2/com/ibm/incust/implementation/CaCustsecrRequest.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "src/main/java2/com/ibm/incust/implementation/CaHouse.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "src/main/java2/com/ibm/incust/implementation/CaPolicyRequest.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "src/main/java2/com/ibm/incust/implementation/Dfhcommarea1.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "src/main/java2/com/ibm/incust/implementation/CaPolicyCommon.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "src/main/java2/com/ibm/incust/implementation/CaMotor.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "src/main/java2/com/ibm/incust/implementation/CaCustomerRequest.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "src/main/java2/com/ibm/incust/implementation/ErrorMsg.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": [
+      {
+        "id": "JAVA:7D9480DECCF6644ABC0EA725A1FF1F95A969926BF7BC4631E879ED3E24995C15",
+        "type": null,
+        "type_class_id": null,
+        "name_editable": "writeErrorMessage",
+        "suggested_names": [
+          "writeErrorMessage"
+        ],
+        "member_type": "method",
+        "method_info": {
+          "input_parameters": [
+            {
+              "id": "JAVA:2AADC872534C794598E235D99907DE9D8C1BE3CE0109C7CAC0B0561FC1EBA7A2",
+              "type": "Dfhcommarea1",
+              "type_class_id": "JAVA:B79F4D751B42AB40889402AD70DB4D8CE85883D0112EED6E3C914777FBE8C0D4",
+              "name_editable": "dfhcommarea1",
+              "suggested_names": [
+                "dfhcommarea1"
+              ],
+              "member_type": "parameter",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:164",
+                "name": "DFHCOMMAREA-1",
+                "type": "variable",
+                "pic_info": null,
+                "location_info": {
+                  "id": "ADDI:1",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 24
+                }
+              }
+            }
+          ],
+          "local_variables": [
+            {
+              "id": "JAVA:A95C17F6E7A4BEF5C54EDA9CFCDD6983E2A386872AC56A31E98998F4ED474622",
+              "type": "int",
+              "type_class_id": null,
+              "name_editable": "wsAbstime",
+              "suggested_names": [
+                "wsAbstime"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:161",
+                "name": "WS-ABSTIME",
+                "type": "variable",
+                "pic_info": "PIC S9(8)",
+                "location_info": {
+                  "id": "ADDI:1",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 21
+                }
+              }
+            },
+            {
+              "id": "JAVA:4EE43B89EDAF28D5EC4E85C1920229E1A428CC5CBE4D077D351B34300685DDCF",
+              "type": "String",
+              "type_class_id": null,
+              "name_editable": "caData",
+              "suggested_names": [
+                "caData"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:157",
+                "name": "CA-DATA",
+                "type": "variable",
+                "pic_info": "PIC X(90)",
+                "location_info": {
+                  "id": "ADDI:1",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 17
+                }
+              }
+            },
+            {
+              "id": "JAVA:C5826DD938FEC8F12F26729E178A208367437B0F8937439EA1E64C69B8FFFAAB",
+              "type": "String",
+              "type_class_id": null,
+              "name_editable": "wsTime",
+              "suggested_names": [
+                "wsTime"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:162",
+                "name": "WS-TIME",
+                "type": "variable",
+                "pic_info": "PIC X(8)",
+                "location_info": {
+                  "id": "ADDI:1",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 22
+                }
+              }
+            },
+            {
+              "id": "JAVA:47AFB6217FED49A43C5B85AE80E6018ADCD61BCADA784F21755EB6EF9D529793",
+              "type": "String",
+              "type_class_id": null,
+              "name_editable": "wsDate",
+              "suggested_names": [
+                "wsDate"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:163",
+                "name": "WS-DATE",
+                "type": "variable",
+                "pic_info": "PIC X(10)",
+                "location_info": {
+                  "id": "ADDI:1",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 23
+                }
+              }
+            }
+          ]
+        },
+        "variable_info": null,
+        "cobol_info": {
+          "id": "ADDI:4",
+          "name": "WRITE-ERROR-MESSAGE",
+          "type": "paragraph",
+          "pic_info": null,
+          "location_info": {
+            "id": "ADDI:1",
+            "program_file_name": "INSCUST.cbl",
+            "line_number": 122
+          }
+        }
+      }
+    ]
+  },
+  {
+    "javaClassRelativePath": "java2/com/ibm/wcaz/datamodel/Genasa1Policy.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "java2/com/ibm/wcaz/implementation/CaEndowment.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "java2/com/ibm/wcaz/implementation/EmVariable.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "java2/com/ibm/wcaz/implementation/ErrorMsg.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": [
+      {
+        "id": "JAVA:CD9BA7C1CDC3CE22101991EDF54963B79BA870DA821DD2F858912B69FA6386D4",
+        "type": null,
+        "type_class_id": null,
+        "name_editable": "writeErrorMessage",
+        "suggested_names": [
+          "writeErrorMessage"
+        ],
+        "member_type": "method",
+        "method_info": {
+          "input_parameters": [
+            {
+              "id": "JAVA:4A9F4F4132FE9DF113DFF5BD976A37D80523EC5534E94F504DF844F62168AAD4",
+              "type": "Dfhcommarea1",
+              "type_class_id": "JAVA:2B011FE5EB719456E43B1F242004F55B7060AE27BA13D5D0B3FC9E51B6861BE3",
+              "name_editable": "dfhcommarea1",
+              "suggested_names": [
+                "dfhcommarea1"
+              ],
+              "member_type": "parameter",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:206",
+                "name": "DFHCOMMAREA-1",
+                "type": "variable",
+                "pic_info": null,
+                "location_info": {
+                  "id": "ADDI:5",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 24
+                }
+              }
+            }
+          ],
+          "local_variables": [
+            {
+              "id": "JAVA:E1E06F090B45EA4CD4FBE019B2C84619D34F0DD00002B97E7178BD90E648527D",
+              "type": "String",
+              "type_class_id": null,
+              "name_editable": "caData",
+              "suggested_names": [
+                "caData"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:199",
+                "name": "CA-DATA",
+                "type": "variable",
+                "pic_info": "PIC X(90)",
+                "location_info": {
+                  "id": "ADDI:5",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 17
+                }
+              }
+            },
+            {
+              "id": "JAVA:EC7AF2F716E651BD4B8E13E5DB6E9A8F5AE6003D339D0653940B139694191D86",
+              "type": "String",
+              "type_class_id": null,
+              "name_editable": "wsDate",
+              "suggested_names": [
+                "wsDate"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:205",
+                "name": "WS-DATE",
+                "type": "variable",
+                "pic_info": "PIC X(10)",
+                "location_info": {
+                  "id": "ADDI:5",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 23
+                }
+              }
+            },
+            {
+              "id": "JAVA:53394B5514E752BACEC2CCC9F8454BBB9F9642C6233D5832D3CC3771BCD7CD1E",
+              "type": "int",
+              "type_class_id": null,
+              "name_editable": "wsAbstime",
+              "suggested_names": [
+                "wsAbstime"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:203",
+                "name": "WS-ABSTIME",
+                "type": "variable",
+                "pic_info": "PIC S9(8)",
+                "location_info": {
+                  "id": "ADDI:5",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 21
+                }
+              }
+            },
+            {
+              "id": "JAVA:F5EBA6D785AB96B12F74D73068A196B5652EF1519FD6722CE35E90D773D3D929",
+              "type": "String",
+              "type_class_id": null,
+              "name_editable": "wsTime",
+              "suggested_names": [
+                "wsTime"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:204",
+                "name": "WS-TIME",
+                "type": "variable",
+                "pic_info": "PIC X(8)",
+                "location_info": {
+                  "id": "ADDI:5",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 22
+                }
+              }
+            }
+          ]
+        },
+        "variable_info": null,
+        "cobol_info": {
+          "id": "ADDI:5",
+          "name": "WRITE-ERROR-MESSAGE",
+          "type": "paragraph",
+          "pic_info": null,
+          "location_info": {
+            "id": "ADDI:0",
+            "program_file_name": "INSCUST.cbl",
+            "line_number": 122
+          }
+        }
+      }
+    ]
+  },
+  {
+    "javaClassRelativePath": "java2/com/ibm/wcaz/implementation/CaPolicyRequest.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "java2/com/ibm/wcaz/implementation/CaCommercial.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "java2/com/ibm/wcaz/implementation/CaClaim.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "java2/com/ibm/wcaz/implementation/CaCustomerRequest.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "java2/com/ibm/wcaz/implementation/CaHouse.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "java2/com/ibm/wcaz/implementation/Inscust.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": [
+      {
+        "id": "JAVA:85300B40107D06ACA467FA2D1E214AA4A0EAA112D971C5FDB71FD56CCA307BD6",
+        "type": null,
+        "type_class_id": null,
+        "name_editable": "insertCustomer",
+        "suggested_names": [
+          "insertCustomer"
+        ],
+        "member_type": "method",
+        "method_info": {
+          "input_parameters": [],
+          "local_variables": [
+            {
+              "id": "JAVA:FBD0CB93BBCC939551E6E15EB88A18441A1F089CABE14761D54470E79441077D",
+              "type": "long",
+              "type_class_id": null,
+              "name_editable": "db2CustomernumInt",
+              "suggested_names": [
+                "db2CustomernumInt"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:201",
+                "name": "DB2-CUSTOMERNUM-INT",
+                "type": "variable",
+                "pic_info": "PIC S9(9)",
+                "location_info": {
+                  "id": "ADDI:5",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 19
+                }
+              }
+            },
+            {
+              "id": "JAVA:F225CDEE00F38520CDF1C51850C70A319AF8518BEBBB12D5253409FD3FA824EA",
+              "type": "ErrorMsg",
+              "type_class_id": "JAVA:F4A7F94B598CBBDFC3DF12512CAFAC7B108E9A1C287752BD5478099D06E1689E",
+              "name_editable": "errorMsg",
+              "suggested_names": [
+                "errorMsg"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:292",
+                "name": "ERROR-MSG",
+                "type": "variable",
+                "pic_info": null,
+                "location_info": {
+                  "id": "ADDI:5",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 26
+                }
+              }
+            },
+            {
+              "id": "JAVA:469FA38BFF82C7D2C09DA7A88FDEE1D08DEDB4D3728C0A33EDADE809C9C4FE52",
+              "type": "CaCustomerRequest",
+              "type_class_id": "JAVA:2A65D3A1E8337FB128ADD0513D78159C36FBDE85542239AE4327119CF67E8BB7",
+              "name_editable": "caCustomerRequest",
+              "suggested_names": [
+                "caCustomerRequest"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:211",
+                "name": "CA-CUSTOMER-REQUEST",
+                "type": "variable",
+                "pic_info": "PIC ",
+                "location_info": {
+                  "id": "ADDI:2",
+                  "program_file_name": "LGCMAREA.cpy",
+                  "line_number": 28
+                }
+              }
+            },
+            {
+              "id": "JAVA:3F607F0EE1E303B0335FB6BFD92C1935BB37852F75FAAB7AC261E757303C1898",
+              "type": "String",
+              "type_class_id": null,
+              "name_editable": "lgacNcs",
+              "suggested_names": [
+                "lgacNcs"
+              ],
+              "member_type": "variable",
+              "method_info": null,
+              "variable_info": {
+                "init_value_editable": null
+              },
+              "cobol_info": {
+                "id": "ADDI:202",
+                "name": "LGAC-NCS",
+                "type": "variable",
+                "pic_info": "PIC X(2)",
+                "location_info": {
+                  "id": "ADDI:5",
+                  "program_file_name": "INSCUST.cbl",
+                  "line_number": 20
+                }
+              }
+            }
+          ]
+        },
+        "variable_info": null,
+        "cobol_info": {
+          "id": "ADDI:4",
+          "name": "INSERT-CUSTOMER",
+          "type": "paragraph",
+          "pic_info": null,
+          "location_info": {
+            "id": "ADDI:0",
+            "program_file_name": "INSCUST.cbl",
+            "line_number": 48
+          }
+        }
+      }
+    ]
+  },
+  {
+    "javaClassRelativePath": "java2/com/ibm/wcaz/implementation/CaCustsecrRequest.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "java2/com/ibm/wcaz/implementation/Dfhcommarea1.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "java2/com/ibm/wcaz/implementation/CaMotor.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  },
+  {
+    "javaClassRelativePath": "java2/com/ibm/wcaz/implementation/CaPolicyCommon.java",
+    "cobolProgramName": "INSCUST",
+    "cobolProgramRelativePath": "cobol/INSCUST.cbl",
+    "methods": []
+  }
+]
